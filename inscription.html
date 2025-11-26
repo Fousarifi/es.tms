@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>استمارة الانخراط في الجمعية</title>
+
+    <style>
+        body {
+            font-family: "Cairo", sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            width: 380px;
+            margin: 70px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        label {
+            font-size: 15px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #0e9aa7;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0b7c85;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>استمارة الانخراط في الجمعية</h2>
+
+        <form>
+
+            <label>الاسم الكامل</label>
+            <input type="text" placeholder="اكتب اسمك الكامل">
+
+            <label>رقم الهاتف</label>
+            <input type="text" placeholder="06xxxxxxxx">
+
+            <label>البريد الإلكتروني</label>
+            <input type="email" placeholder="example@gmail.com">
+
+            <label>العنوان</label>
+            <input type="text" placeholder="اكتب عنوانك">
+
+            <label>سبب الانخراط</label>
+            <textarea placeholder="اكتب سبب الانخراط" rows="3"></textarea>
+
+            <button type="submit">إرسال الطلب</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
